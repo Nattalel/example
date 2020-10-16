@@ -1,5 +1,8 @@
 package SelenoidTest;
 
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,6 +12,10 @@ import pageObject.Unit;
 import java.util.concurrent.TimeUnit;
 
 public class FirstTest extends  Basic {
+
+    @Epic("Селениум")
+    @Feature("Гугле тетс")
+    @Story("Проверяем картинки")
     @Test
     public void btest() {
 
