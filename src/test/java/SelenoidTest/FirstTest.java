@@ -63,7 +63,7 @@ public class FirstTest extends  Basic {
         in.setSearchText("iphone");
         in.clickSubmitSearch();
 
-        //dfghjfghj
+        //dfghjfghjfghnjm
 
 
         //getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
