@@ -56,12 +56,17 @@ public class FirstTest extends  Basic {
 
         getDriver().get("https://www.eldorado.ru/");
         getDriver().manage().window().maximize();
-        //getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+
         Unit in = new Unit(getDriver());
 
         in.setSearchText("iphone");
         in.clickSubmitSearch();
 
+        //dfghjfghj
+
+
+        //getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         /*getDriver().get("https://www.mvideo.ru/");
         getDriver().manage().window().maximize();
         //getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
